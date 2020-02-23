@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView_blank3"
+            android:layout_width="match_parent"
+            android:layout_height="92dp" />
+
+        <TextView
+            android:id="@+id/textView_hint3"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:text="No the number is too small, please try again!"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/Textview_upgood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="🔺"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"/>
+
+           <Button
+            android:id="@+id/btn_bad"
+            android:layout_width="104dp"
+            android:layout_height="97dp"
+            android:background="@mipmap/cry"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:onClick="Onclickbad"
+             />
+        <TextView
+            android:id="@+id/Textview_downbad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="▼"
+            android:textAlignment="center"
+            android:textColor="#000000"/>
+
+</LinearLayout>
